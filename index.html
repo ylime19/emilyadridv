@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV EmilyAdriana</title>
+    <style>
+
+    ul {
+        list-style-type: none; 
+        margin: 0; 
+        padding: 0;
+        text-align: center;
+        background-color: darksalmon;
+    }
+
+   
+    li {
+        display: inline-block;
+        margin-right: 60px; 
+    }
+
+    
+    li a {
+        text-decoration: none; 
+        color: white;
+        font-family: Arial, sans-serif;
+        font-size: 20px;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    .container {
+        display: flex; /* Ativar flexbox */
+        flex-direction: row-reverse;
+    }
+
+    /* Estilos para a imagem */
+    .imagem {
+        width: 290px; /* Largura da imagem */
+        height: 350px; /* Altura da imagem*/
+        margin-right: 150px; /* Espaço entre a imagem e o texto */
+        border-radius: 60%;
+        margin-top: 110px;
+
+    }
+
+    /* Estilos para o texto */
+    .texto {
+        flex: 5;
+        margin-left: 80px;
+        font-size: 25px; /* Tamanho da fonte do texto */
+        font-family: Arial, Helvetica, sans-serif;
+        color: dimgrey;
+    }
+
+    .tamanho{
+        font-size: 55px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        color: darksalmon;
+    }
+    
+    h2{
+     font-family: Arial, Helvetica, sans-serif;
+     color: dimgray;
+     font-size: 35px;
+     text-align: center;
+     margin-top: 40px;
+    }
+
+    h5{
+        font-family: Arial, Helvetica, sans-serif;
+        color: grey ;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 5;
+    }
+    header {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: peachpuff;
+        }
+
+    .menu {
+            grid-column-start: 6;
+            grid-column-end: 12;
+            justify-content: left; /* Centraliza o menu a direita*/
+            gap: 20px;
+    }
+    .tamanho2{
+        color: grey; 
+        font-size: 30px;
+        margin-left: 16px;
+    }
+    h1{
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        color: darksalmon;
+        margin-left: 80px ;
+
+    }
+    p{
+        margin-left: 80px;
+        font-size: 25px; /* Tamanho da fonte do texto */
+        font-family: Arial, Helvetica, sans-serif;
+        color: dimgrey;
+
+    }
+
+    .rodapé {
+            display: grid;
+        }
+
+    footer {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: peachpuff;
+            text-align: center;
+            
+        }
+
+    </style>
+<body>
+    <header class="container menu">
+        <h1 style="color: dimgrey; font-size: 60px; margin-left: 16px;">Emily Adriana <br> <span class="tamanho2">Desenvolvedora</span></h1>
+    </header>
+
+    <ul>
+        <li><a href="index.html">SOBRE MIM</a></li>
+        <li><a href="formacao.html">FORMAÇÃO</a></li>
+        <li><a href="portifolio.html">PORTIFÓLIO</a></li>
+        <li><a href="contato.html">CONTATO</a></li>
+    </ul>
+
+    <h2>Desenvolvo soluções tecnológicas<br> para facilitar e aprimorar<br> a vida das pessoas.</h2>
+    <h5>Estou focada em desenvolver soluções tecnológicas<br> eficientes que impulsionem o progresso e a inovação em nossa era digital."</h5>
+
+    <div class="container">
+        <!-- Imagem -->
+        <img src="imagens/eu.jpg" class="imagem">
+        <!-- Texto ao lado da imagem -->
+        <p class="texto"><br><span class="tamanho"><br>Sobre mim</span><br><br><br><strong>Olá, sou Emily Adriana</strong><br><br> Uma estudante dedicada e entusiasmada no campo da <Br> Tecnologia da Informação.<br><br> Atualmente cursando o segundo período de Análise e<br> Desenvolvimento de Sistemas,<br> estou em busca de oportunidades para me aprofundar <br>e crescer profissionalmente nessa área que tanto amo.</p>
+    </div>
+
+    <h1>Interesses</h3>
+    <p>Nos meus tempos livres, gosto de me manter atualizada na área de tecnologia, seja lendo artigos,<br> assistindo a vídeos ou participando de eventos relacionados.<br> Além disso, sou uma ávida leitora e aprecio assistir séries para relaxar. <br>Valorizo muito o tempo em família e procuro equilibrar meus estudos com momentos de lazer e convívio.</p>
+    <P>Estou ansiosa para contribuir e aprender cada vez mais no mercado de tecnologia,<br>buscando oportunidades para aplicar meus conhecimentos e crescer profissionalmente.</p><br>
+    <h1>Habilidades</h1>
+        <p>- Conhecimento em linguagens de programação como Java, Python e SQL.<br>
+        - Familiaridade com desenvolvimento web (HTML, CSS, JavaScript).<br>
+        - Experiência com ferramentas de versionamento como Git.<br>
+        - Capacidade de trabalhar em equipe e solucionar problemas de forma eficiente.<br>
+        - Boa comunicação e habilidades interpessoais.<br>
+        <br> </p>
+        <br>
+
+    <footer class="rodapé">
+        <h1 style="color: grey;">Desenvolvido para fins educacionais</h1>
+    </footer>
+</html>
